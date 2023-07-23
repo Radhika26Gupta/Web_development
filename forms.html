@@ -1,0 +1,107 @@
+<!-- form - structure which is used to collect user input -->
+
+<!-- form(tag) used to create form -->
+<!-- input to take from user -->
+<!-- label tell what to input for attribute  -->
+
+<!-- important id attribute of input tag and for attribute of label tag should be equal to map -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="email">Enter email ID</label>
+        <input type="text" id="email" placeholder="Enter email"> <br><br>
+        <label for="password">Enter password</label>    
+        <input type="text" name="" id="password">  
+        <br><br>
+        <input type="submit" value="click here">
+        <!-- <button>Click here</button> -->
+
+        <!-- the input type means it can be input, radio, button, checkbox, date -->
+
+        <!-- to access the input we give the id for each input -->
+
+        <!-- to attach label with input important-->
+
+        <!-- type = submit the data will be submitted on the server  -->
+        <!-- value means text on the button -->
+        <br><br>
+         <input type="text" name="" id="name" value="radha">
+        </form>
+         <!-- placeholder faded text -->
+
+         <!-- form element input,label,select-dropdown,option,buttons,textarea(multiline input),fieldset(to group more than one element such as radio buttons such as section),legend(to give caption to fieldset )-->
+
+        <br><br>
+
+        <fieldset>
+            <legend>HTML form dummy</legend>
+            <form >
+                <label for="date">Choose date : </label>
+                <input type="date" name="" id="date">
+                <br>
+    
+                <label for="selector1">Choose your dish : </label>
+                <select name="dishes" id="selector1">
+                    <option value="maggi">Maggi</option>
+                    <option value="kurku">Kurkure</option>
+                    <option value="chip">Chips</option>
+                </select>
+                <br>
+                <button>Main hu Button</button>
+                <br><br>
+                <label for="Text">Enter your hobbies : </label><br>
+                <textarea name="textarea" id="Text" cols="30" rows="10" placeholder="Write about youself..."></textarea>
+            </form>     
+        </fieldset>    
+
+        <!-- homework to select multiple values in dropdown -->
+
+        <!-- input types textfeild,button,radio,checkbox,file-select,image,password,datepicker-->
+
+        <br><br>
+
+        <form action="">
+            <label for="name">TextField:</label>
+            <input type="text" name="firstname" id="name">
+            <br><br>
+
+            <label for="button">Button:</label>
+            <input type="submit" name="firstname" id="button"value="Subscribe">
+            <br><br>
+
+            <label for="radio">Select option 1:</label>
+
+            <input type="radio" name="gender" id="radio">
+
+            <label for="radio1">Select option2:</label>
+
+            <input type="radio" name="gender2" id="radio1">
+
+            <label for="radio2">Select option3:</label>
+
+            <input type="radio" name="gender3" id="radio2">
+            <br><br>
+            <label for="checkbox1">English</label>
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+            <br><br>
+            <label for="checkbox2">Hindi</label>
+            <input type="checkbox" name="checkbox2" id="checkbox2">
+            <br>
+
+            <label for="file1">Select file</label>
+            <input type="file" name="file1" id="file1">
+        
+            <input type="image" name="image1" id="image1" alt="Click here" src="istockphoto-1405730723-170667a.webp" width="200px" height="200px">
+
+            <label for="password1">ENter password : </label>
+            <input type="password" name="password1" id="password1">
+        </form>
+</body>
+</html>
