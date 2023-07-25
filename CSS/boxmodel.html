@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* imp - homework - box-sizing property best practice to keep it border-box */
+        
+        h1{
+            background-color: tomato;
+            /* border-style: solid;
+            border-width: 2px;
+            border-color: black; */
+
+            /* short notation  of above  */
+            border : solid black 3px;
+
+            /* round the corner */
+            border-radius: 5px;
+
+            /* only one corner to be round */
+            /* border-top-left-radius: 5px; */
+
+            /* add the border in one direction only same for left right bottom*/
+            /* border-top: solid black 5px; */
+
+            /* to increase width and height to a box  */
+            width: 300px;
+            height: 200px;
+        }
+        p{
+            border: solid black 2px;
+            border-radius: 5px;
+        }
+        .para1{
+            background-color: aquamarine;
+            height: 150px;
+            width: 200px;
+            /* padding: 10px;
+            margin: 10px; */
+
+            /* padding-left: 10px;
+            padding-top: 20px;
+            padding-right: 30px; */
+
+            /* short hand notation */
+            /* padding  : 10px 20px 30px 40px
+            top right bottom left; */
+            /* padding: 10px 20px; */
+
+            /* top-bottom and left-right */
+
+            /* margin: 20px; */
+            /* margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 40px;
+            margin-bottom: 50px; */
+
+            /* shorthand property for margin  */
+
+        }
+        .para2{
+            background-color: beige;
+            height: 160px;
+            width: 200px;
+        }
+        .para3{
+            background-color: antiquewhite;
+            height: 150px;
+            width: 200px;
+        }
+        span{
+            /* if we add width and hieght to the span tag then it will not apply bcoz it is inline element will take as much space as it wants */
+
+            background-color: bisque;
+            border: solid purple 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>
+        Lorem, ipsum dolor.
+    </h1> -->
+
+    <span>Lorem ipsum dolor sit.
+    </span>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iste dolorum id eligendi nostrum quam tempora architecto repudiandae minima ipsam?</p>
+    <p class="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aliquam necessitatibus, eligendi porro libero est obcaecati quis maxime totam, ab laudantium animi vel debitis! Quis quia molestias qui doloremque veritatis.</p>
+    <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae corrupti quae dignissimos architecto voluptatibus?</p>
+</body>
+</html>
+
+<!-- all thing will render in rectangular box only  
+1. content (layer 1)
+2. padding (layer 2) - space between content and border
+3. border (layer 3) -
+4. margin (layer 4) -  gap between the multiple boxes -->
+
+<!-- universal selector -->
+
