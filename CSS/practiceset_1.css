@@ -1,0 +1,61 @@
+#box{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.heading{
+    color: red;
+    text-align: center;
+}
+button{
+    background-color: green;
+}
+
+h1,h2,h3{
+    color: yellowgreen;
+}
+
+h1{
+    text-decoration: palevioletred solid underline;
+}
+h2{
+    text-decoration: overline;
+}
+p{
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: right; */
+    font-family: cursive;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+/* #div1{
+    text-align: end;
+} */
+
+a{
+    text-decoration: none;
+}
+
+#span1{
+    /* font-weight: normal; */
+    font-weight: 100;
+}
+#span2{
+    font-weight: bold;
+    /* font-weight: 200; */
+}
+#span3{
+    /* font-weight: bolder; */
+    font-weight: 300;
+}
+#span4{
+    /* font-weight: lighter; */
+    font-weight: 400;
+}
+
+#para1{
+    font-size: 25px;
+}
+
